@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ToDo</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-header">
+				<h4 class="card-title">Todo App </h4>
+			</div>
+			<div class="card-body">
+				<div class="input-group" id='actionPanel1'>
+					<div class="input-group-prepend">
+						<span id="selectAllAction">
+							<button class="btn btn-outline-primary" type="button" id='test'>Select all</button>
+						</span>
+					</div>
+					<input type="text" class="form-control" id='input'>
+				</div>
+				<div id='actionPanel2'>
+					<div class="btn-group btn-block">
+						<button type='button' class='btn btn-success' id="doneAction">Done</button>
+						<button type='button' class='btn btn-info' id="restoreAction">Restore</button>
+						<button type='button' class='btn btn-danger' id="removeAction">Remove</button>
+					</div>
+				</div>
+			</div>
+			<ul class="list-group" id='list'></ul>
+      <!-- <li class="List-group-item">
+        <div class="form-group form-check">
+          <input type="checkbox"  class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="excheck1"> Check Me Out</label>
+          <button type="button" class="btn btn-outline-primary" name="done">  Done  </button>
+          <button type="button" class="btn btn-outline-danger" name="remove">  Remove  </button>
+        </div>
+      </li> -->
+		</div>
+	</div>
+
+	<script src="./js/main.js"></script>
+</body>
+
+
+</html>
