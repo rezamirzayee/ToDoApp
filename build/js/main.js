@@ -6,7 +6,7 @@ let todoList = []
 
 inputElement.addEventListener('keydown', (event)=> {
 
-  if (event.key =='Enter'|| event.keyCode ==13){
+  if ((event.key =='Enter'|| event.keyCode ==13)&&(inputElement.value)){
     todoList.unshift({
           content: inputElement.value,
           done: false,
